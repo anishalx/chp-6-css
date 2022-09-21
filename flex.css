@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aquamarine;
+    align-items: center;
+    /* align-content: center; */
+    
+    height: 100vh;
+   
+}
+.box1{
+    height: 234px;
+    /* width: 245px; */
+    background-color:red;
+    border: 2px solid black;
+    order: 4;
+    /* align-self:flex-end; */
+    flex-grow: 2;
+    
+}
+.box2{
+    
+    height: 234px;
+    /* width: 245px; */
+    background-color: blue;
+    border: 2px solid black;
+    flex-grow: 1;
+}
+    
+
+

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    
+    padding: 20px;
+    margin-left: 2em;
+    display:  inline-block;
+}
+header{
+    background-color: rgba(10, 161, 48, 0.475);
+    color: white;
+}
+.left{
+    
+    width: 40vw;
+    border: 0.5vw solid black;
+    height: 85vh;
+    background-color: aquamarine;
+}
+.right{
+    
+    height: 85vh;
+    background-color: rgba(255, 0, 0, 0.632);
+    width: 40vw;
+    border: 0.5vw solid black;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
